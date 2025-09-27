@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To The Website</h1>
+        <p>Explore language Translate</p>
+    </header>
+
+    
+    <div id="container">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita dolore natus, earum obcaecati et reprehenderit nihil quisquam, quis molestias magni quos sapiente perspiciatis. Accusantium eius earum dolore debitis ut!</p>
+    </div>
+    
+    <div id="google_translate_element"></div>
+
+
+    <!-- <iframe src="" frameborder="0"></iframe>   iframe is used to display any website or any videos in your website-->
+    <!-- <video src=""></video>  used to display videos -->
+     <!-- <audio src=""></audio>  used to display audio in your website -->
+
+
+     
+    <script type="text/javascript">
+        function googleTranslateElementInit(){
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+    </script>  
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      
+    </body>
+
+</html>
